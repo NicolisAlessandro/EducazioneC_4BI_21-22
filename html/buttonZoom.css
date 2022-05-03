@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.button {
+    background: #000;
+    color: #fff;
+    padding: 1cm 2cm;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 65;
+}
+
+.zoom-in {
+    transform: scale(5);
+}
+
+.zoom-out :hover {
+    transform: scale(5);
+}
+
+.zoom-in :hover {
+    transform: scale(1);
+}
+  
